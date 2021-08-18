@@ -9,4 +9,4 @@ Process:
 Scrape tweets with bank name 
   Twint (https://github.com/twintproject/twint) \
 Use beautiful soup to clean tweets with WordPunctTokenizer\
-sentiment analysis with TextBlob
+Sentiment analysis with TextBlob

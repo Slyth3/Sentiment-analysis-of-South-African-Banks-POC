@@ -1,0 +1,38 @@
+# Quick Twint code
+Github - https://github.com/twintproject/twint
+
+All functions - https://github.com/twintproject/twint/wiki/Configuration
+### initialise setup 
+c.twint.Config() 
+#### set username
+c.Username = "realDonaldTrump"
+#### set phrase search
+c.Search = "great"
+#### limitations
+c.Limit = 1            ---- limit to batches (unknown size)
+
+c.Since = "2019–04–29"
+
+c.Until = "2020–04–29"
+#### Pandas 
+c.Pandas = True        -----once run save to dataframe
+
+    ---- Tweets 
+    df = twint.storage.panda.Tweets_df
+    
+    ---- followers 
+    df = twint.storage.panda.Follow_df
+
+#### Write output 
+c.Store_csv = True
+
+c.Output = "test.csv"
+
+c.Store_json = True
+
+### Execute determines how its run- using setup above
+twint.run.Search(c)    --- will run search for all tweets with the above
+
+twint.run.Profile(c)   ---- will run against profile - return only this profiles tweets
+
+twint.run.Followers(c) ---- get follower info 

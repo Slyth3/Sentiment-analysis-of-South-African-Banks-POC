@@ -1,12 +1,13 @@
-# Twitter_NLP
+# Bank Sentiment analysis
 Sentiment Analysis on the top 4 banks in South Africa 
   - Standard bank
   - Absa
   - Nedbank
-  - Investec
+  - FNB
 
 Process: 
-Scrape tweets with bank name 
-  Twint (https://github.com/twintproject/twint) \
-Use beautiful soup to clean tweets with WordPunctTokenizer\
-Sentiment analysis with TextBlob
+Twint to scrape tweets of the top 4 banks in South Africa 
+  Twint (https://github.com/twintproject/twint) 
+Clean tweets with WordPunctTokenizer and Regex 
+TextBlog to process sentiment of tweets 
+Matplotlib / Seaborn to visualise data 

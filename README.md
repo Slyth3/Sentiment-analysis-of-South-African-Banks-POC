@@ -11,3 +11,7 @@ Process:
 * Clean tweets with WordPunctTokenizer and Regex 
 * TextBlog to process sentiment of tweets 
 * Matplotlib / Seaborn to visualise data 
+
+Outfiles can be found on AWS S3 (as pickle files:
+* pre-cleaned file (https://twint-nlp-banks.s3.eu-west-1.amazonaws.com/Output/Bank-NLP/Output/pre_cleaning.pickle)
+* Final output, cleaned and with sentiment analysis (https://twint-nlp-banks.s3.eu-west-1.amazonaws.com/Output/Bank-NLP/Output/Final.pickle)

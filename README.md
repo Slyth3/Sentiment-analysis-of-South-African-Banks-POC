@@ -14,5 +14,5 @@ Process:
 
 Outfiles can be found on AWS S3 (as pickle files:
 * pre-cleaned file (https://twint-nlp-banks.s3.eu-west-1.amazonaws.com/Output/Bank-NLP/Output/pre_cleaning.pickle)
-* pre-cleaned CSV file (https://twint-nlp-banks.s3.eu-west-1.amazonaws.com/Output/Bank-NLP/Output/pre_cleaning.csv)
+* pre-cleaned CSV file (https://twint-nlp-banks.s3.eu-west-1.amazonaws.com/Output/Bank_NLP/Output/pre_cleaning.csv)
 * Final output, cleaned and with sentiment analysis (https://twint-nlp-banks.s3.eu-west-1.amazonaws.com/Output/Bank-NLP/Output/Final.pickle)

@@ -1,8 +1,6 @@
 # Bank Sentiment analysis
 This project is to prove the concept of scraping the required tweets, use an out-the-box model to determine sentiment of tweets and visualize/analyse the results
 
-
-
 Process: 
 * Twint to scrape tweets of the top 4 banks in South Africa 
   Twint (https://github.com/twintproject/twint) 

@@ -1,4 +1,4 @@
-# Bank Sentiment Analysis
+# Bank Sentiment Analysis POC
 This project is to prove the concept of scraping the required tweets, use an out-the-box model to determine sentiment of tweets and visualize/analyse the results
 
 Process: 

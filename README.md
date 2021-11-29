@@ -1,5 +1,5 @@
 # Bank Sentiment analysis
-This project is to prove the concept of scraping the required tweets, use ab out-the-box model to determine sentiment of tweets and visualize/analyse the results
+This project is to prove the concept of scraping the required tweets, use an out-the-box model to determine sentiment of tweets and visualize/analyse the results
 
 
 
